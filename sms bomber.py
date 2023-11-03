@@ -2,7 +2,7 @@ import requests
 from requests.structures import CaseInsensitiveDict
 import sys
 import time
-blue= #0000FF
+blue='\33[94m'
 lightblue= '\33[94m'
 red= '\33[91m'
 white= '\33[97m'
@@ -21,7 +21,7 @@ logo=green+str("""
 '\33[91m' ▒▒ ░ ░▓ ░   ██▒▒▒ ░ ▒░▓  ░░ ▒░   ▒ ▒    
   '\33[1;32m'░░   ░▒ ░ ▓██ ░▒░ ░ ░ ▒  ░░ ░░   ░ ▒░   
  '\33[93m' ░    ░   ▒ ▒ ░░    ░ ░      ░   ░ ░    
-#80FF00  ░    ░   ░ ░         ░  ░         ░    
+'\33[94m'  ░    ░   ░ ░         ░  ░         ░    
        '\33[1;32m'     ░ ░                           
           
 
